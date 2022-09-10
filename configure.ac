@@ -38,6 +38,8 @@ AC_CHECK_LIB([m], [log10], [
 ])
 AC_SUBST([LIBM_LIBS])
 
+AC_USE_SYSTEM_EXTENSIONS
+
 # ======================================
 # Check for various headers and settings
 # ======================================
