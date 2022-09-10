@@ -20,7 +20,6 @@
 #include <unistd.h>
 #include <netinet/tcp.h>
 #include <arpa/inet.h>
-#include <sys/signal.h>
 
 #include "redirect.h"
 #include "service.h"
